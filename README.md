@@ -120,12 +120,17 @@
 
 ## 其他
 
+### 提交 md 注意说明
+
+如果需要换行，行尾必须要有两个空格
+
+### 使用到的命令
+
 批量处理命令：
 `ls -1 .../Desktop/MST01/面试题收集 | sed 's/\.app//g' > .../Desktop/NameList.text`
 
 快速添加目录导航：
 https://github.com/ekalinin/github-markdown-toc
-
 
 ./gh-md-toc /Users/xxx/Desktop/MST01/面试题收集/招聘_大公司1-算法.md > 01.text
 ./gh-md-toc /Users/xxx/Desktop/MST01/面试题收集/招聘_大公司2-iOS-汇总.md > 02.text
